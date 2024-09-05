@@ -1,0 +1,90 @@
+[
+    {
+        "id":1,
+        "name": "Story BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 10,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":2,
+        "name": "Gym BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 100,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":3,
+        "name": "Music BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":4,
+        "name": "Cooking BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 50,
+        "category": "Cook",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":5,
+        "name": "Sea BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 220,
+        "category": "Sea",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":6,
+        "name": "Comedy BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 20,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":7,
+        "name": "A.P.J BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 150,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":8,
+        "name": "Royal BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 100,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":9,
+        "name": "Food BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 200,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":10,
+        "name": "Coding BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    },
+    {
+        "id":11,
+        "name": "DSA BooK",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 0,
+        "category": "Algorithm",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725439687~exp=1725443287~hmac=22fbdb58cbc2af96d2ac6dcd9abe34746dfee9dcbc4935927b74a48a4745330d&w=740"
+    }
+]
