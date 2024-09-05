@@ -15,10 +15,12 @@
 # Now backend api ko call karenge sabsse pahale state define karenge and data lane ke liye hm useeffect ka use karenge and 
 # jis component me data chahiye waha axios import karenge and jis route url par hain woh url axios.get('url')dal denge 
 # Now getting CORS error then we need to install it and fixed the problem and ise backend me install karna hai and ise index.js me import karn hoga 
-#
-#
-#
-#
+
+# ---------------------------Login or Logout---------------------------------
+
+# signup model create , controller create , route create and import in index.js 
+# password dikh raha h database me so ab ise hash karna h like encrypt install this package using this command ( npm i bcryptjs ) password hash successfully
+# Now we going to work on login funtionality ---- pahale jo password user ne diya and jo password database me save h agar ye dono match karte hain to user ko login karne do ---and create route in user.route.js  
 #
 #
 #

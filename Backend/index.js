@@ -1,13 +1,15 @@
 import express from "express"
 import dotenv from "dotenv"
 import mongoose from "mongoose";
-import bookRoute from './route/book.route.js'
 import cors from "cors"
+import bookRoute from './route/book.route.js'
+import userRoute from './route/user.route.js'
 
 const app = express();
 
 // ye middleware hota hain so
 app.use(cors());
+app.use(express.json());    // json data convert karne ke liye body se 
 
 dotenv.config();
 
@@ -26,6 +28,7 @@ try {
 
 // Defining route 
 app.use('/book',bookRoute)
+app.use('/user',userRoute)
 
 
 
