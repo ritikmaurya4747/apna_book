@@ -21,9 +21,9 @@
 # signup model create , controller create , route create and import in index.js 
 # password dikh raha h database me so ab ise hash karna h like encrypt install this package using this command ( npm i bcryptjs ) password hash successfully
 # Now we going to work on login funtionality ---- pahale jo password user ne diya and jo password database me save h agar ye dono match karte hain to user ko login karne do ---and create route in user.route.js  
-#
-#
-#
+# frontend se data lene ke liye signup me input me hm jo name database me hamne liya h schema banate time same name ab use haum yaha de denge and baad me axios ka use karke ham api call kar denge  data DB me store hoga ab 
+# Ab authetication lagane ke liye course par to jo data h use browser ke localStorage me save karenge like cookies use 
+# react hot toast for good pop ui
 #
 #
 #
