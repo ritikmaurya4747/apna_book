@@ -1,9 +1,9 @@
-import React from "react";
-import list from "../../public/list.json";
+import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from "./Cards";
+import axios from "axios";
 
 // Card banane ke liye qki ishme scroll tha so yaha se liya aur ye sab ipmort bhi kiye  (https://react-slick.neostack.com/)
 
@@ -44,8 +44,19 @@ function Freebook() {
     ],
   };
 
-  // To json data filter
-  const filterData = list.filter((data) => data.category === "Free");
+  const [book, setBook] = useState([]);
+  useEffect(()=>{
+    const getBook = async(req,res)=>{
+      try {
+       const response = await axios.get('http://localhost:4001/book');
+       setBook(response.data.filter((data) => data.category === "Free"))
+      } catch (error) {
+        console.log("Error:",error)
+      }
+    }
+    getBook();
+  },[])
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
@@ -62,7 +73,7 @@ function Freebook() {
 
         <div className="">
           <Slider {...settings}>
-            {filterData.map((item)=>(
+            {book.map((item)=>(
                 //parent to child data send in cards is child
                 <Cards item = {item} key={item.id}/> 
             ))}
