@@ -89,7 +89,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className="text-3xl font-bold cursor-pointer text-pink-500">Apna_Book</a>
+            <a className="text-3xl font-bold cursor-pointer text-pink-500">ApnaBook</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
