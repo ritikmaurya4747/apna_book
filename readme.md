@@ -23,9 +23,9 @@
 # Now we going to work on login funtionality ---- pahale jo password user ne diya and jo password database me save h agar ye dono match karte hain to user ko login karne do ---and create route in user.route.js  
 # frontend se data lene ke liye signup me input me hm jo name database me hamne liya h schema banate time same name ab use haum yaha de denge and baad me axios ka use karke ham api call kar denge  data DB me store hoga ab 
 # Ab authetication lagane ke liye course par to jo data h use browser ke localStorage me save karenge like cookies use 
-# react hot toast for good pop ui
-#
-#
-#
+# react hot toast for good pop ui dikhe alert par 
+# Now context create kar rahe hain for authentication in course jo login karega bus wahi access kar sakata hai
+#   Ab hm localstorage se users ko leke aayenge contextme  (createContext() ka use tab karte hain jab hame props se data bhejna hota hain jo kafi complex ho jata hain so ham ise use karte hain) login ho gaya 
+#  Ab logout componenet create karege 
 #
 #

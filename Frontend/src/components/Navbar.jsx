@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login";
+import { useAuth } from "../context/AuthProvider";
 
 function Navbar() {
+ 
+  
   //Using hook to manage state navbar bg change
-
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
