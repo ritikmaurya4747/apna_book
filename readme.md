@@ -25,7 +25,7 @@
 # Ab authetication lagane ke liye course par to jo data h use browser ke localStorage me save karenge like cookies use 
 # react hot toast for good pop ui dikhe alert par 
 # Now context create kar rahe hain for authentication in course jo login karega bus wahi access kar sakata hai
-#   Ab hm localstorage se users ko leke aayenge contextme  (createContext() ka use tab karte hain jab hame props se data bhejna hota hain jo kafi complex ho jata hain so ham ise use karte hain) login ho gaya 
-#  Ab logout componenet create karege 
+#   Ab hm localstorage se users ko leke aayenge context me  (createContext() ka use tab karte hain jab hame props se data bhejna hota hain jo kafi complex ho jata hain so ham ise use karte hain) login ho gaya 
+#  Ab logout component create karege and yaha auth hook ka use karke import kar lenge ab user logout component me aa gaya hai ab onclick ka use karke user ko logout karenge  and navbar me bhi same funtinality use kuiye h custom hooks ka use karke 
 #
 #
