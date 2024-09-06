@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from "react-hot-toast";
-import Signup from "./Signup";
 
 function Login() {
   const {
@@ -104,7 +103,7 @@ function Login() {
                   className="underline text-blue-500 cursor-pointer"
                 >
                   Signup
-                </Link>{" "}
+                </Link>
               </p>
             </div>
           </form>

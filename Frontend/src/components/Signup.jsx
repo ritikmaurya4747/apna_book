@@ -13,6 +13,7 @@ function Signup() {
   const {
     register,
     handleSubmit,
+    
     formState: { errors },
   } = useForm();
   
@@ -98,7 +99,7 @@ function Signup() {
                     }
                   >
                     Login
-                  </button>{" "}
+                  </button>
                   <Login />
                 </p>
             </div>
