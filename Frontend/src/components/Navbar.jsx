@@ -1,9 +1,8 @@
-import React, { useEffect, useState , useContext} from "react";
+import React, { useEffect, useState, useContext } from "react";
 import Login from "./Login";
 import { useAuth } from "../context/AuthProvider";
 import Logout from "./Logout";
-import { ThemeContext } from "../context/ThemeProvider"; 
-
+import { ThemeContext } from "../context/ThemeProvider";
 
 function Navbar() {
   // Jo ham custom hook banaye hain AuthProvider.jsx me ye waha se aa raha hai
@@ -12,7 +11,6 @@ function Navbar() {
   //Using hook to manage state navbar bg change
   const { theme, toggleTheme } = useContext(ThemeContext);
 
-  
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
@@ -30,10 +28,22 @@ function Navbar() {
   }, []);
   const navItems = (
     <>
-      <li> <a href="/">Home</a></li>
-      <li> <a href="/course">Course</a></li>
-      <li> <a>Contact</a> </li>
-      <li> <a>About</a> </li>
+      <li>
+        {" "}
+        <a href="/">Home</a>
+      </li>
+      <li>
+        {" "}
+        <a href="/course">Course</a>
+      </li>
+      <li>
+        {" "}
+        <a>Contact</a>{" "}
+      </li>
+      <li>
+        {" "}
+        <a>About</a>{" "}
+      </li>
     </>
   );
 
@@ -106,14 +116,6 @@ function Navbar() {
               </label>
             </div>
             <label className="swap swap-rotate">
-              {/* this hidden checkbox controls the state */}
-              <input
-  type="checkbox"
-  className="theme-controller"
-  checked={theme === "dark"}
-  onChange={toggleTheme}
-/>
-
               {/* sun icon */}
               <svg
                 className="swap-off h-7 w-7 fill-current"
@@ -135,17 +137,19 @@ function Navbar() {
               </svg>
             </label>
 
-            {authUser ? (  // Agar AuthUser h to use logout button show karo
+            {authUser ? ( // Agar AuthUser h to use logout button show karo
               <Logout />
-            ) : (         // Agar AuthUser nahi h to ise ye show karo bas  
+            ) : (
+              // Agar AuthUser nahi h to ise ye show karo bas
               <div className="">
-              <a
-  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
-  onClick={() => document.getElementById("my_modal_3").showModal()}
->
-  Login
-</a>
-
+                <a
+                  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+                  onClick={() =>
+                    document.getElementById("my_modal_3").showModal()
+                  }
+                >
+                  Login
+                </a>
                 <Login />
               </div>
             )}
