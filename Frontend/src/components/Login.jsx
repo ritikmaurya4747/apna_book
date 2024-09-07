@@ -22,7 +22,7 @@ function Login() {
         "http://localhost:4001/user/login",
         userInfo
       );
-      console.log(response.data);
+      // console.log(response.data);
       if (response.data) {
         toast.success("Logged in Successfully");
         document.getElementById("my_modal_3").close();
